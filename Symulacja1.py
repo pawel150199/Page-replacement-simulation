@@ -155,7 +155,7 @@ class Sym1(object):
         p = input(
             "Podaj dzielnik prędkości przetwarzania procesów(n=1000 wowczas 1cykl=1ms)")
         print()
-        print("------------------------------Algorytm priorytetowy SJF-------------------------------")
+        print("------------------------------Algorytm priorytetowy FCFS-------------------------------")
         while flag == True:
             if self.ctime[k] <= t:
                 print()
