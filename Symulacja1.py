@@ -480,7 +480,6 @@ while decision:
         xd.sjf()
     elif option == '3':
         xd.sjf_priority()
-        xd.info()
     elif option.lower() == '4':
         decision = False
     else:
